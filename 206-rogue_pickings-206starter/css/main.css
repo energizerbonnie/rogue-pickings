@@ -100,6 +100,10 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: wrap;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -123,10 +127,6 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex-flow: wrap;
 	border-top: 1px solid #eee;
 }
 
@@ -140,12 +140,11 @@ header nav ul li a{
 }
 
 .menu {
-	display: flex;
-	flex-direction: column;
+	padding-left: 0px;
 	list-style: none;
 }
 .menu li {
-	padding: 10px 0;
+	padding: 10px 0px;
 	color:#77a466;
 }
 
