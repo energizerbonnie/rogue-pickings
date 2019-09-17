@@ -140,11 +140,11 @@ header nav ul li a{
 }
 
 .menu {
-	padding-left: 0px;
+	padding: 0px;
 	list-style: none;
 }
 .menu li {
-	padding: 10px 0px;
+	line-height: 35px;
 	color:#77a466;
 }
 
