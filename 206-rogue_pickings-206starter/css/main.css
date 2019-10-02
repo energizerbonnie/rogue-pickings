@@ -101,10 +101,8 @@ header nav ul li a {
 .top-section,
 .bottom-section {
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	align-content: center;
 	flex-flow: wrap;
-	width: 100%;
 }
 
 .main-image img {
@@ -170,12 +168,17 @@ footer span {
 
 @media all and (min-width: 768px) {
 	.bottom-section {
+		display: flex;
+		flex-wrap: nowrap;
 	}
 
 	.section-one
 	.section-two
 	.section-three {
+		display: flex;
+		flex-basis: 30%;
 	}
+
 }
 
 @media all and (min-width: 1200px) {
