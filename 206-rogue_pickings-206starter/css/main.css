@@ -64,13 +64,15 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-flow: column;
+	text-align: center;
 	width: 100%;
 }
 
 header h1 {
 	border-bottom: 3px solid #77a466;
 	padding: 15px;
+	width: 100%;
 }
 
 header h1 span {
@@ -78,14 +80,11 @@ header h1 span {
 }
 
 header nav ul {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
 	padding: 0;
 }
 
 header nav ul li {
-	display: inline;
+	list-style: none;
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 35px;
@@ -169,14 +168,16 @@ footer span {
 @media all and (min-width: 768px) {
 	.bottom-section {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-flow: nowrap;
 	}
 
 	.section-one
 	.section-two
 	.section-three {
 		display: flex;
-		flex-basis: 30%;
+		justify-content: center;
+		align-content: center;
+		width: 30%;
 	}
 
 }
